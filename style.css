@@ -1,14 +1,13 @@
 .tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-box {
-	background: #FFF;
-	min-height: 50px;
-	width: 100%;
-	border-style: none;
-	display: flex;
-	align-items: center;
+    background: #FFF;
+    min-height: 50px;
+    width: 100%;
+    border-style: none;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .tooltipster-sidetip .tooltipster-arrow-border {
     border-style: none;
 }
-   
