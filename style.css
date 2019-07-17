@@ -1,3 +1,46 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+.header {
+	min-height: 100px;
+	line-height: 100px;
+	border-bottom: 1px solid #c4c4c4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 38px;
+}
+a {
+    text-decoration: none;
+    color: #6e6e6e;
+}
+
+#logo {
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 0 83px;
+}
+span {
+    vertical-align: super;
+    font-size: 10px;
+}
+
+
+
 .tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-box {
     background: #FFF;
     min-height: 50px;
