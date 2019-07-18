@@ -3,14 +3,14 @@ body {
     padding:0;
 }
 
+/* header */
 .header {
 	min-height: 100px;
 	line-height: 100px;
-	border-bottom: 1px solid #c4c4c4;
+	border-bottom: 1px solid #cfcaca;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-
+    align-items: center;
 }
 ul{
     display: flex;
@@ -24,38 +24,37 @@ li {
     font-weight: 400;
     padding: 0 38px;
 }
+
 a {
     text-decoration: none;
     color: #6e6e6e;
 }
 
-#logo {
+#osiedle_marmurowe {
+    color: grey;
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: bold;
     padding: 0 83px;
 }
+
 span {
     vertical-align: super;
     font-size: 10px;
 }
 
+/* localization */
 .localization {
-    display: flex;
-    justify-content: center;    
-}
-
-.localization {
+    margin-top:30px;
     display: flex;
 	justify-content: center;
 }
 
 .address_block  {
-    margin-top: 38px;
-    margin-bottom: 734px;
+    margin-bottom: 540px;
     width: 100vw;
     background: url('images/localization_background.png') no-repeat;
     background-size: cover;
-    height: 375px;
+    height: 275px;
     display: flex;
     justify-content: center;
 }
@@ -75,13 +74,12 @@ p {
     color: grey;
 }
 
-img {
+.localization img {
     display: flex;
     justify-content: center;
     position: absolute;
     top: 400px;
 }
-
 
 .tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-box {
     background: #FFF;
@@ -96,4 +94,30 @@ img {
 
 .tooltipster-sidetip .tooltipster-arrow-border {
     border-style: none;
+}
+
+/* footer */
+.footer {
+	width: 100vw;
+	background: url('images/footer_background.png') no-repeat;
+    background-size: cover;   
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+	align-items: center;
+    color: #5a5454;   
+	font-size: 14px;
+    font-weight: 400;
+}
+
+.copyright {
+    margin-top: 40px;
+    margin-right: 200px;
+}
+
+.logo{
+    margin-top: 34px;
+    margin-left: 200px;
 }
